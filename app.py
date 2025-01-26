@@ -3,8 +3,8 @@ import pickle
 import os
 
 # Load the model and vectorizer
-model = pickle.load(open(os.path.join('C:\Users\hp\Desktop\Seq2Seq\model.pkl'), 'rb'))
-vectorizer = pickle.load(open(os.path.join('C:\Users\hp\Desktop\Seq2Seq\tfidf_vectorizer.pkl'), 'rb'))
+model = pickle.load(open(os.path.join('C:/Users/hp/Desktop/Seq2Seq/model.pkl'), 'rb'))
+vectorizer = pickle.load(open(os.path.join('C:/Users/hp/Desktop/Seq2Seq/tfidf_vectorizer.pkl'), 'rb'))
 
 st.title("Sentiment Analysis")
 
